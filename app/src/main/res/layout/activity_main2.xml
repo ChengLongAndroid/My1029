@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="test.cl.com.my1029.Main2Activity">
+
+    <EditText
+        android:id="@+id/edtv"
+        android:text="http://jzvd.nathen.cn/c6e3dc12a1154626b3476d9bf3bd7266/6b56c5f0dc31428083757a45764763b0-5287d2089db37e62345123a1be272f8b.mp4"
+        android:layout_width="match_parent"
+        android:lines="3"
+        android:layout_height="wrap_content" />
+
+
+    <cn.jzvd.JZVideoPlayerStandard
+        android:id="@+id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp" />
+
+    <Button
+        android:id="@+id/buttontv"
+        android:onClick="cctv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交" />
+
+
+</LinearLayout>
